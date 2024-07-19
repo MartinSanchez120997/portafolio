@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <img src="etqueta.PNG" alt="">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BI - Martín Sánchez</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0b125e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #070bd6;
+        }
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        img{
+            right: 300px;
+            height: 316px;
+            z-index: 1;
+        }
+
+        .persona2{
+            position: relative;
+            
+            top: -360px;
+            left: 70px;
+            height: 20px;
+        }
+
+        .persona2 img{
+            border-radius: 60%;
+            width: 300px; /* Ajusta el ancho según tus necesidades */
+            height: 300px; /* Ajusta la altura según tus necesidades */
+            z-index: 2;
+            box-shadow: white;
+            border: 5px solid white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BI - Martin Sanchez</h1>
+    </header>
+
+    <div class="persona2">
+        <img src="persona.png" alt="">
+    </div>
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Sobre mí</h2>
+            <p>Business Intelligence Analyst con 6 años de experiencia en el análisis de datos y la generación de insights estratégicos.Me apasiona la ciencia de datos y las matemáticas aplicadas, y disfruto
+                transformando datos complejos en información clara y accionable.Tengo experiencia en visualización de datos con herramientas como Power BI,
+                Looker Studio y Tableau, soy conocido por mi capacidad para interpretar y presentar resultados estadísticos de manera comprensible.He completado numerosos cursos y
+                certificaciones en diversas herramientas de análisis. Además, tengo un sólido historial en liderazgo y gestión de equipos, ayudando a capacitar y guiar al personal para mejorar la eficiencia y la calidad en el análisis de datos.</p>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portafolio</h2>
+            <p>A continuación, puedes ver algunos de mis trabajos en Power BI:</p>
+            <div class="iframe-container">
+                <iframe title="DB_CRI_BETA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOTBmYmQ0YmEtODZiMC00ZGFmLTgyYWYtODVhYzA2MDNhOWFmIiwidCI6Ijg3NTJiMTIyLWEyOTItNGUxZS05NzI5LTVkNTA1MDQ1Mzg3NiIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div class="iframe-container" style="margin-top: 20px;">
+                <iframe title="PROEMSA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYWRjNTM0NmQtMWFmNy00N2JlLThkNmEtMTk3YjQ2YTNkNGMwIiwidCI6Ijg3NTJiMTIyLWEyOTItNGUxZS05NzI5LTVkNTA1MDQ1Mzg3NiIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div class="iframe-container" style="margin-top: 20px;">
+                <iframe width="600" height="600" src="https://lookerstudio.google.com/embed/reporting/1e5fb5eb-6434-4e4e-a908-2ff34eb20b83/page/8LjcD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+            </div>    
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: <a href="oswaldo.martin.sanchez.l@gmail.com">oswaldo.martin.sanchez.l@gmail.com</a></li>
+                <li>LinkedIn: <a href="www.linkedin.com/in/martin-sanchez-b3335a216">www.linkedin.com/in/martin-sanchez-b3335a216</a></li>
+                <li>Telefono: <a href="55-3639-1043"></a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
